@@ -33,6 +33,7 @@ namespace ExtensionMethods
                 .AppendLine(logEntry.AdditionalInformation);
             return sb.ToString();
         }
+
     }
 
     public class Severity
