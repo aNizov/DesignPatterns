@@ -1,0 +1,15 @@
+Abstract factory pattern
+
+1) App needs to support multiple database types
+	a) SQL Server, Oracle, MySQL
+	b) Isolate database type from application
+2) Measurement data comes from multiple sources
+	a) Serial port, Ethernet, device driver
+3) Need to create different report types
+	a) PDF, Word doc, etc.
+
+Provides an abstract class:
+	a) Generalized interface
+	b) Hides details from rest of application
+	c) Factory class creates an instance of a class that inherits or implements the abstract class
+	d) In conjunction with Factory Method pattern
