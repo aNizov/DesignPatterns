@@ -6,8 +6,5 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    public interface IProduct
-    {
-        void SomeMethod();
-    }
+
 }

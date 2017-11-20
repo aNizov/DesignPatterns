@@ -42,20 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Foreman.cs" />
-    <Compile Include="Implementation1\Builder1.cs" />
-    <Compile Include="Implementation1\FirstClass1.cs" />
-    <Compile Include="Implementation1\SecondClass1.cs" />
-    <Compile Include="Implementation1\ThirdClass1.cs" />
-    <Compile Include="Implementation2\Builder2.cs" />
-    <Compile Include="Implementation2\FirstClass1.cs" />
-    <Compile Include="Implementation2\SecondClass1.cs" />
-    <Compile Include="Implementation2\ThirdClass1.cs" />
-    <Compile Include="Interfaces\IBuilder.cs" />
-    <Compile Include="Interfaces\IFirstItem.cs" />
-    <Compile Include="Interfaces\ISecondItem.cs" />
-    <Compile Include="Interfaces\IThirdItem.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Base_Builder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

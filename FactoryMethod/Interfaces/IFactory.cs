@@ -3,6 +3,5 @@
     public interface IFactory
     {
         IProduct GetInstance();
-
     }
 }
