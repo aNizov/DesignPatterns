@@ -55,29 +55,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{3F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{25735216-85D8-4375-9C4B-E6A06B959A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6474AA59-D7BC-49E5-B8F6-7CFEE64FF58D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_FactoryMethod_AbstractFactory", "AbstractFactory\Creational_FactoryMethod_AbstractFactory.csproj", "{6474AA59-D7BC-49E5-B8F6-7CFEE64FF58D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{685865BF-1911-477F-AE6E-02E84F500AC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_FactoryMethod_FactoryMethod", "FactoryMethod\Creational_FactoryMethod_FactoryMethod.csproj", "{685865BF-1911-477F-AE6E-02E84F500AC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFactoryMethod", "StaticFactoryMethod\StaticFactoryMethod.csproj", "{389F4714-734A-417B-B7A4-3A63A7282635}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_FactoryMethod_StaticFactoryMethod", "StaticFactoryMethod\Creational_FactoryMethod_StaticFactoryMethod.csproj", "{389F4714-734A-417B-B7A4-3A63A7282635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaranteedVirtalMethodInvokation", "GaranteedVirtalMethodInvokation\GaranteedVirtalMethodInvokation.csproj", "{A704E7DC-BA73-4B45-AA7F-50A9384D7233}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_FactoryMethod_GaranteedVirtalMethodInvokation", "GaranteedVirtalMethodInvokation\Creational_FactoryMethod_GaranteedVirtalMethodInvokation.csproj", "{A704E7DC-BA73-4B45-AA7F-50A9384D7233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateRealization", "DelegateRealization\DelegateRealization.csproj", "{A8365F25-7F9E-4971-8570-16528CFD5980}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_FactoryMethod_DelegateRealization", "DelegateRealization\Creational_FactoryMethod_DelegateRealization.csproj", "{A8365F25-7F9E-4971-8570-16528CFD5980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{82953E5C-3C16-44E3-BF8C-5D869BD8FB0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Builder", "Builder\Creational_Builder.csproj", "{82953E5C-3C16-44E3-BF8C-5D869BD8FB0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazySingleton", "LazySingleton\LazySingleton.csproj", "{C7E5649D-E77D-4487-B1F3-A9E6B7C7A6AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Singleton_LazySingleton", "LazySingleton\Creational_Singleton_LazySingleton.csproj", "{C7E5649D-E77D-4487-B1F3-A9E6B7C7A6AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DobleblockSingleton", "DobleblockSingleton\DobleblockSingleton.csproj", "{441D6FEA-349C-4420-BF72-01B3A7AB4F3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Singleton_DobleblockSingleton", "DobleblockSingleton\Creational_Singleton_DobleblockSingleton.csproj", "{441D6FEA-349C-4420-BF72-01B3A7AB4F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFieldSingleton", "StaticFieldSingleton\StaticFieldSingleton.csproj", "{23842186-C391-4D44-A224-8B135D21C76E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Singleton_StaticFieldSingleton", "StaticFieldSingleton\Creational_Singleton_StaticFieldSingleton.csproj", "{23842186-C391-4D44-A224-8B135D21C76E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicTemplateMethod", "ClassicTemplateMethod\ClassicTemplateMethod.csproj", "{5BBD41F9-1AA7-4449-8370-F80AB1E7FEDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral_Template_ClassicTemplateMethod", "ClassicTemplateMethod\Behavioral_Template_ClassicTemplateMethod.csproj", "{5BBD41F9-1AA7-4449-8370-F80AB1E7FEDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesBasedTemplateMethod", "DelegatesBasedTemplateMethod\DelegatesBasedTemplateMethod.csproj", "{91A6367B-1A83-4B47-AE9D-BB7264E072A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral_Template_DelegatesBasedTemplateMethod", "DelegatesBasedTemplateMethod\Behavioral_Template_DelegatesBasedTemplateMethod.csproj", "{91A6367B-1A83-4B47-AE9D-BB7264E072A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{F2D0F14A-7E32-4E2B-8792-7B98A0C68B09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral_Template_ExtensionMethods", "ExtensionMethods\Behavioral_Template_ExtensionMethods.csproj", "{F2D0F14A-7E32-4E2B-8792-7B98A0C68B09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
