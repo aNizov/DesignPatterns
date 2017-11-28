@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Structural_Composite_Using_Specification")]
+[assembly: AssemblyTitle("Structural_Composite")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Structural_Composite_Using_Specification")]
+[assembly: AssemblyProduct("Structural_Composite")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fefacd42-22c0-403c-b22c-3898eede308f")]
+[assembly: Guid("43386265-88f5-4f80-a0b1-9bd17244cd51")]
 
 // Version information for an assembly consists of the following four values:
 //
