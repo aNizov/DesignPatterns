@@ -1,39 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Creational_Factory_Method
+namespace Creational_Factory_Method.Base
 {
-    class Program1
+    class Program
     {
         static void Main()
         {
-            IFactory1 factory = new Factory();
-            IProduct1 product = factory.GetInstance();
+            IFactory factory = new Factory();
+            IProduct product = factory.GetInstance();
             product.SomeMethod();
         }
     }
-    internal class Factory : IFactory1
+    internal class Factory : IFactory
     {
-        public IProduct1 GetInstance()
+        public IProduct GetInstance()
         {
-            return new Product1();
+            return new Product();
         }
     }
-    class Product1 : IProduct1
+    class Product : IProduct
     {
         public void SomeMethod()
         {
             Console.WriteLine("Instance created");
         }
     }
-    public interface IFactory1
+    public interface IFactory
     {
-        IProduct1 GetInstance();
+        IProduct GetInstance();
     }
-    public interface IProduct1
+    public interface IProduct
     {
         void SomeMethod();
     }

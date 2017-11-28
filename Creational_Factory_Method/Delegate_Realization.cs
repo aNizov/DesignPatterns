@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Creational_Factory_Method
+namespace Creational_Factory_Method.DelegateBased
 {
     public class LogReader
     {

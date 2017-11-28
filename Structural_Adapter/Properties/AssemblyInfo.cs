@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CreationalBuilder")]
+[assembly: AssemblyTitle("Structural_Adapter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CreationalBuilder")]
+[assembly: AssemblyProduct("Structural_Adapter")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("31c7dde7-4c30-4c5e-ac93-5d97c1e00750")]
+[assembly: Guid("71d032d9-e553-43c4-91a1-1e0e83770259")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,20 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.ExceptionServices;
 
-namespace Creational_Factory_Method
+namespace Creational_Factory_Method.Garanted_Virtual_Method_Invokation
 {
-    class Program2
+    class Program
     {
         static void Main()
         {
-            var instance = Factory2<ConcreeteProduct2>.Create();
-            var anotherInstance = Factory2<AnotherConcreeteProduct2>.Create();
+            var instance = Factory<ConcreeteProduct2>.Create();
+            var anotherInstance = Factory<AnotherConcreeteProduct2>.Create();
         }
     }
 
-    internal class Factory2<T> where T : Product2, new()
+    internal class Factory<T> where T : Product, new()
     {
         public static T Create()
         {
@@ -32,19 +31,19 @@ namespace Creational_Factory_Method
             }
         }
     }
-    public abstract class Product2
+    public abstract class Product
     {
         protected internal abstract void SomeMethod();
     }
 
-    public class ConcreeteProduct2 : Product2
+    public class ConcreeteProduct2 : Product
     {
         protected internal override void SomeMethod()
         {
             Console.WriteLine("Virtual method of concreete class processed...");
         }
     }
-    public class AnotherConcreeteProduct2 : Product2
+    public class AnotherConcreeteProduct2 : Product
     {
         protected internal override void SomeMethod()
         {

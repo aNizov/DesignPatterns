@@ -46,5 +46,11 @@
     <Compile Include="Delegate_Realization.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Creational_Abstract_Factory\Creational_Abstract_Factory.csproj">
+      <Project>{38D7E142-7428-4739-99A6-CDA9542D00AE}</Project>
+      <Name>Creational_Abstract_Factory</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

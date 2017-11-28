@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{28416969-F6BA-4E61-9626-0123270FAF90}</ProjectGuid>
+    <ProjectGuid>{8D2E1FB3-8FF0-4CFB-B37B-B3C00F5EB269}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Creational_Builder</RootNamespace>
-    <AssemblyName>Creational_Builder</AssemblyName>
+    <RootNamespace>Structural_Flyweight</RootNamespace>
+    <AssemblyName>Structural_Flyweight</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,9 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base_Builder.cs" />
-    <Compile Include="Extension_Methods_Builder.cs" />
-    <Compile Include="Non_Extension_Methods_Builder.cs" />
+    <Compile Include="Base.cs" />
+    <Compile Include="Caching.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
