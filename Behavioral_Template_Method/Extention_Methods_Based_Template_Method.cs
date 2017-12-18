@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Behavioral_Template_Method
+namespace Behavioral_Template_Method.Extention_Methods_Based
 {
     public abstract class LogEntryBase
     {

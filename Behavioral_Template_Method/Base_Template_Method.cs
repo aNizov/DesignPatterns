@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Behavioral_Template_Method
+namespace Behavioral_Template_Method.Base
 {
     public abstract class LogReader
     {
